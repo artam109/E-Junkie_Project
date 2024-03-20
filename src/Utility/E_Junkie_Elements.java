@@ -104,6 +104,17 @@ public class E_Junkie_Elements {
 
 
 
+    // E-Junkie Wiki Site Locators
+    @FindBy(linkText = "E-commerce by E-junkie")
+    public WebElement eJunkieMainSite;
+
+    @FindBy(linkText = "See how it works")
+    public WebElement seeHiwBtn;
+
+    @FindBy(css = "iframe[width=\"853\"]")
+    public WebElement videoFrame;
+    @FindBy(css = "div[class=\"ytp-cued-thumbnail-overlay\"]")
+    public WebElement playVideoBtn;
 
 
 
