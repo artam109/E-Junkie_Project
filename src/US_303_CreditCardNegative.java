@@ -15,7 +15,7 @@ public class US_303_CreditCardNegative extends BaseDriver {
         // click Pay Debit button
         driver.switchTo().frame(eje.checkoutFrame);
         eje.payDebitBtn.click();
-        
+
         // Switch frame to the Card Information Frame
         driver.switchTo().frame(eje.cardNumPlcFrame);
 
