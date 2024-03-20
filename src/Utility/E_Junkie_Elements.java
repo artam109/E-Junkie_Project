@@ -106,7 +106,7 @@ public class E_Junkie_Elements {
 
     // E-Junkie Wiki Site Locators
     @FindBy(linkText = "E-commerce by E-junkie")
-    public WebElement eJunkieMainSite;
+    public WebElement eJunkieWikiSite;
 
     @FindBy(linkText = "See how it works")
     public WebElement seeHiwBtn;
