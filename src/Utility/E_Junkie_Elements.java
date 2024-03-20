@@ -91,4 +91,20 @@ public class E_Junkie_Elements {
 
 
 
+    // IFRAME LOCATORS
+    @FindBy(xpath = "//iframe[@class='EJIframeV3 EJOverlayV3']")
+    public WebElement checkoutFrame;
+
+    @FindBy(xpath = "//div[@class=\"Checkout-Options\"]//iframe")
+    public WebElement cardNumPlcFrame;
+    @FindBy(css = "iframe[title=\"reCAPTCHA\"]")
+    public WebElement recaptchaFrame;
+    @FindBy(css = "iframe[title=\"reCAPTCHA sorusunun süresi iki dakika sonra dolacak\"]")
+    public WebElement recaptchaIMGFrame;
+
+
+
+
+
+
 }
