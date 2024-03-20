@@ -65,6 +65,30 @@ public class E_Junkie_Elements {
     public WebElement homePageBtn;
 
 
+    // Contact Us Page
+    @FindBy(linkText = "Contact Us")
+    public WebElement contactUsBtn;
+
+    @FindBy(id = "sender_name")
+    public WebElement contactUsName;
+
+    @FindBy(id = "sender_email")
+    public WebElement contactUsEmail;
+
+    @FindBy(id = "sender_subject")
+    public WebElement contactUsSubject;
+
+    @FindBy(id = "sender_message")
+    public WebElement contactUsMessage;
+
+    @FindBy(css = "div[class=\"recaptcha-checkbox-border\"]")
+    public WebElement recaptchaBox;
+    @FindBy(id = "recaptcha-verify-button")
+    public WebElement recaptchaVerifyBtn;
+
+    @FindBy(id = "send_message_button")
+    public WebElement sendBtn;
+
 
 
 }
